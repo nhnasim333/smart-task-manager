@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "useDefineForClassFields": true,
+    "module": "ESNext",
+
+    /* Enables JSX */
+    "jsx": "react-jsx",
+
+    /* Correct for Vite */
+    "moduleResolution": "bundler",
+    "esModuleInterop": true,
+
+    /* Vite types */
+    "types": ["vite/client"],
+
+    /* Paths */
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+
+    /* Strict mode */
+    "strict": true,
+
+    /* No emit */
+    "noEmit": true
+  },
+  "include": ["src"]
+}
